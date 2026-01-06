@@ -27,8 +27,8 @@ trust_remote_code: true
 
 adapter: lora
 lora_model_dir:
-lora_r: 8
-lora_alpha: 16
+lora_r: 64
+lora_alpha: 128
 lora_dropout: 0.05
 lora_target_linear: true
 lora_fan_in_fan_out:
